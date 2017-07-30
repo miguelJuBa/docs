@@ -1,9 +1,9 @@
 #include <iostream>
-#include "../library/library.cpp"
+#include "../library/library.h"
 int main(int argc, char ** argv)
 {
     std::cout << "Hello world!" << std::endl;
     Library library;
-    library.helloLibrary();   
+    library.helloLibrary();
     return 0;
 }
