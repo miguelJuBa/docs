@@ -1,4 +1,4 @@
 
-add_executable (helloLib main.cpp)
+add_executable (helloLibExec main.cpp)
 
-target_link_libraries (helloLib LINK_PUBLIC Library)
+target_link_libraries (helloLibExec LINK_PUBLIC HelloLib)

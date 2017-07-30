@@ -1,4 +1,4 @@
 
-add_library (Library, library.cxx)
+add_library (HelloLib library.cpp)
 
-target_include_directories (Library, PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories (HelloLib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
