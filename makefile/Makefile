@@ -1,5 +1,5 @@
 CXX=g++
-CXXFLAGS=-g -std=c++11 -Wall -pedantic -lpthread -lcdk -lcurses
+CXXFLAGS=-g -std=c++11 -Wall -pedantic -lpthread
 BIN=example
 
 SRC=$(wildcard *.cpp)
